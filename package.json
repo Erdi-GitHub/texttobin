@@ -1,0 +1,19 @@
+{
+  "name": "texttobin",
+  "version": "1.0.3",
+  "description": "Convert text to binary",
+  "main": "index.js",
+  "bin": {
+    "to-bin": "./bin/index.js"
+  },
+  "keywords": [
+    "text",
+    "binary",
+    "converter"
+  ],
+  "author": "erdi",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^13.2.4"
+  }
+}
