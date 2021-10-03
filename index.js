@@ -7,7 +7,7 @@ if(!String.prototype.repeat)
      */
     String.prototype.repeat = function(count) {
         let result = "";
-        for(let i = 0; i < this.length; i++) result += this;
+        for(let i = 0; i < count; i++) result += this;
 
         return result;
     }
